@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Entity\Legacy;
+namespace App\Entity;
 
 use App\DataTransformer\SiteConfigCustomizationTransformer;
 use App\Dto\SiteConfigCustomizationDto;
@@ -56,7 +56,7 @@ class SiteConfig
     private $custom;
 
     /**
-     * Is the custom field as SiteConfigCustomizationDto object
+     * Custom field as SiteConfigCustomizationDto object
      * @var customDto
      */
     private $customDto;
