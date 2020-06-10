@@ -182,7 +182,7 @@ public function setCustomDto(SiteConfigCustomizationDto $customDto): SiteConfig
 }
 ```
 
-Now I can use it !
+🎉 Now you can use it !
 
 In a controller :
 
