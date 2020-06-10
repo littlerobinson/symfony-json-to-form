@@ -1,6 +1,6 @@
-# Symfony Json Form
+# Symfony Json To Form
 
-Symfony Json Form is one of the ways to transform JSON data from a database field into an DTO object usable by a symfony form.
+`Symfony Json To Form` is one of the ways to transform JSON data from a database field into an DTO object usable by a symfony form.
 In the source example we have a field named `custom` who is a JSON object for customize website.
 It's possible to use with [easyadmin](https://github.com/EasyCorp/EasyAdminBundle).
 
@@ -198,7 +198,7 @@ $form = $this->createFormBuilder($siteConfig)
 
 We can also use it in easyadmin :
 ```yaml
-## 
+## Easyadmin config yaml file
 ...
 
 form:
